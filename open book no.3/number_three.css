@@ -1,0 +1,33 @@
+.gallery {
+    display: flex;
+    /* flex-direction: row;
+    justify-content: space-between ; */
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    width: 180px;
+    flex-wrap: wrap;
+    float: left;
+  }
+.gallery:hover {
+    border: 1px solid #242425;
+  }
+.gallery img {
+    display: block;
+    /* flex-direction: row;
+    justify-content: space-between ; */
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+.text {
+    position: absolute;
+    width: 35%;
+    background-color: #86c3ef;
+    opacity: 0;
+    padding: 15px;
+    text-align: center;
+    overflow:hidden;
+  }
+.text:hover{
+    opacity: 0.65;
+}
